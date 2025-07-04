@@ -28,7 +28,7 @@ async def say_hello(message:Message):
 
 @dp.message(F.text == "Linkni olish")
 async def give_link(message:Message):
-    await message.answer("https://t.me/botlar_io,\n\nBu sizning linkingiz!")
+    await message.answer("https://t.me/skatlab,\n\nBu sizning linkingiz!")
     await bot.send_message(6150443453, f"user {'@'+message.from_user.username if message.from_user.username else f'<a href=\"tg://user?id={message.from_user.id}\">{message.from_user.full_name}</a>'} Link oldi.", parse_mode="HTML")
 
 # Botni ishga tushirish
