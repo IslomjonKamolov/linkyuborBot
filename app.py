@@ -10,7 +10,7 @@ from Keyboard import Hello_button
 
 from aiogram.webhook.aiohttp_server import SimpleRequestHandler, setup_application
 from aiohttp import web
-WEBHOOK_URL = "https://1ebc-188-113-203-4.ngrok-free.app/webhook" 
+WEBHOOK_URL = "linkyuborbot-production.up.railway.app/webhook" 
 
 # Tokenni o'zgartiring
 API_TOKEN = Token
