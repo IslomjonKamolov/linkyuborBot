@@ -33,10 +33,10 @@ async def give_link(message:Message):
 
 # Botni ishga tushirish
 async def on_startup(app: web.Application):
-    await bot.set_webhook(WEBHOOK_URL)
+    print("Starting up...")
 
 async def on_shutdown(app: web.Application):
-    await bot.delete_webhook()
+    print("Shutting down...")
 
 async def main():
     app = web.Application()
